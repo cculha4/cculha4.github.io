@@ -4,14 +4,35 @@
     <title>Your Personal Webpage</title>
     <style>
         body {
-            background-image: url('images/bwmountains.png');
+            background-image: url('images/selflogo.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
         }
+        .hidden {
+            opacity: 0;
+        }
+        .logo {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    My Webpage
+    <div class="logo">
+        <img src="path/to/your/logo.png" alt="Logo" width="100" height="100">
+    </div>
+    
+    <h1 id="title" class="hidden">Welcome to My Webpage</h1>
+    
+    <script>
+        function revealTitle() {
+            var titleElement = document.getElementById("title");
+            titleElement.classList.remove("hidden");
+        }
+        
+        setTimeout(revealTitle, 2000); // Adjust the delay (in milliseconds) as desired
+    </script>
 </body>
 </html>
