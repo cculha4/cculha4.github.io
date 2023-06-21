@@ -3681,6 +3681,357 @@ input, select, textarea {
 
 		}
 
+
+/* Main 2 */
+
+    #main2 {
+        background-color: #ffffff;
+        color: #636363;
+        border-radius: 0.25em;
+    }
+
+        #main2 input, #main2 select, #main2 textarea {
+            color: #636363;
+        }
+
+        #main2 a:hover {
+            color: #636363;
+        }
+
+        #main2 strong, #main2 b {
+            color: #636363;
+        }
+
+        #main2 h1, #main2 h2, #main2 h3, #main2 h4, #main2 h5, #main2 h6 {
+            color: #636363;
+        }
+
+        #main2 blockquote {
+            border-left-color: #dddddd;
+        }
+
+        #main2 code {
+            background: rgba(222, 222, 222, 0.25);
+            border-color: #dddddd;
+        }
+
+        #main2 hr {
+            border-bottom-color: #dddddd;
+        }
+
+        #main2 .box {
+            border-color: #dddddd;
+        }
+
+        #main2 input[type="submit"],
+        #main2 input[type="reset"],
+        #main2 input[type="button"],
+        #main2 button,
+        #main2 .button {
+            background-color: transparent;
+            box-shadow: inset 0 0 0 1px #dddddd;
+            color: #636363 !important;
+        }
+
+            #main2 input[type="submit"]:hover,
+            #main2 input[type="reset"]:hover,
+            #main2 input[type="button"]:hover,
+            #main2 button:hover,
+            #main2 .button:hover {
+                background-color: rgba(222, 222, 222, 0.25);
+            }
+
+            #main2 input[type="submit"]:active,
+            #main2 input[type="reset"]:active,
+            #main2 input[type="button"]:active,
+            #main2 button:active,
+            #main2 .button:active {
+                background-color: rgba(222, 222, 222, 0.5);
+            }
+
+            #main2 input[type="submit"].icon:before,
+            #main2 input[type="reset"].icon:before,
+            #main2 input[type="button"].icon:before,
+            #main2 button.icon:before,
+            #main2 .button.icon:before {
+                color: rgba(99, 99, 99, 0.25);
+            }
+
+            #main2 input[type="submit"].primary,
+            #main2 input[type="reset"].primary,
+            #main2 input[type="button"].primary,
+            #main2 button.primary,
+            #main2 .button.primary {
+                background-color: #8cc9f0;
+                color: #ffffff !important;
+                box-shadow: none;
+            }
+
+                #main2 input[type="submit"].primary:hover,
+                #main2 input[type="reset"].primary:hover,
+                #main2 input[type="button"].primary:hover,
+                #main2 button.primary:hover,
+                #main2 .button.primary:hover {
+                    background-color: #9acff2;
+                }
+
+                #main2 input[type="submit"].primary:active,
+                #main2 input[type="reset"].primary:active,
+                #main2 input[type="button"].primary:active,
+                #main2 button.primary:active,
+                #main2 .button.primary:active {
+                    background-color: #7ec3ee;
+                }
+
+                #main2 input[type="submit"].primary.icon:before,
+                #main2 input[type="reset"].primary.icon:before,
+                #main2 input[type="button"].primary.icon:before,
+                #main2 button.primary.icon:before,
+                #main2 .button.primary.icon:before {
+                    color: #ffffff !important;
+                }
+
+        #main2 label {
+            color: #636363;
+        }
+
+        #main2 input[type="text"],
+        #main2 input[type="password"],
+        #main2 input[type="email"],
+        #main2 select,
+        #main2 textarea {
+            background-color: rgba(222, 222, 222, 0.25);
+            border-color: #dddddd;
+        }
+
+            #main2 input[type="text"]:focus,
+            #main2 input[type="password"]:focus,
+            #main2 input[type="email"]:focus,
+            #main2 select:focus,
+            #main2 textarea:focus {
+                border-color: #8cc9f0;
+                box-shadow: 0 0 0 1px #8cc9f0;
+            }
+
+        #main2 select {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
+        }
+
+            #main2 select option {
+                color: #636363;
+                background: #ffffff;
+            }
+
+        #main2 input[type="checkbox"] + label,
+        #main2 input[type="radio"] + label {
+            color: #636363;
+        }
+
+            #main2 input[type="checkbox"] + label:before,
+            #main2 input[type="radio"] + label:before {
+                background: rgba(222, 222, 222, 0.25);
+                border-color: #dddddd;
+            }
+
+        #main2 input[type="checkbox"]:checked + label:before,
+        #main2 input[type="radio"]:checked + label:before {
+            background-color: #636363;
+            border-color: #636363;
+            color: #ffffff;
+        }
+
+        #main2 input[type="checkbox"]:focus + label:before,
+        #main2 input[type="radio"]:focus + label:before {
+            border-color: #8cc9f0;
+            box-shadow: 0 0 0 1px #8cc9f0;
+        }
+
+        #main2 ::-webkit-input-placeholder {
+            color: rgba(99, 99, 99, 0.25) !important;
+        }
+
+        #main2 :-moz-placeholder {
+            color: rgba(99, 99, 99, 0.25) !important;
+        }
+
+        #main2 ::-moz-placeholder {
+            color: rgba(99, 99, 99, 0.25) !important;
+        }
+
+        #main2 :-ms-input-placeholder {
+            color: rgba(99, 99, 99, 0.25) !important;
+        }
+
+        #main2 .formerize-placeholder {
+            color: rgba(99, 99, 99, 0.25) !important;
+        }
+
+        #main2 .icon.major {
+            border-color: #dddddd;
+        }
+
+            #main2 .icon.major:before {
+                border-color: #dddddd;
+            }
+
+        #main2 .icon.alt {
+            border-color: #dddddd;
+            color: #636363;
+        }
+
+            #main2 .icon.alt:hover {
+                background-color: rgba(222, 222, 222, 0.25);
+            }
+
+            #main2 .icon.alt:active {
+                background-color: rgba(222, 222, 222, 0.5);
+            }
+
+        #main2 ul.alt li {
+            border-top-color: #dddddd;
+        }
+
+        #main2 dl dt {
+            color: #636363;
+        }
+
+        #main2 header.major h2:after {
+            background-color: #dddddd;
+            background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+            background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+            background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+            background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+        }
+
+        #main2 table tbody tr {
+            border-color: #dddddd;
+        }
+
+            #main2 table tbody tr:nth-child(2n + 1) {
+                background-color: rgba(222, 222, 222, 0.25);
+            }
+
+        #main2 table th {
+            color: #636363;
+        }
+
+        #main2 table thead {
+            border-bottom-color: #dddddd;
+        }
+
+        #main2 table tfoot {
+            border-top-color: #dddddd;
+        }
+
+        #main2 table.alt tbody tr td {
+            border-color: #dddddd;
+        }
+
+        #main2 .spotlight .image {
+            border-color: #dddddd;
+        }
+
+        #main2 > .main {
+            padding: 5em 5em 3em 5em ;
+            border-top: solid 1px #dddddd;
+        }
+
+            #main2 > .main:first-child {
+                border-top: 0;
+            }
+
+            #main2 > .main > .image.main:first-child {
+                margin: -5em 0 5em -5em;
+                width: calc(100% + 10em);
+                border-top-right-radius: 0.25em;
+                border-top-left-radius: 0.25em;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+
+                #main2 > .main > .image.main:first-child img {
+                    border-top-right-radius: 0.25em;
+                    border-top-left-radius: 0.25em;
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+
+        @media screen and (max-width: 1280px) {
+
+            #main2 > .main {
+                padding: 4em 4em 2em 4em ;
+            }
+
+                #main2 > .main > .image.main:first-child {
+                    margin: -4em 0 4em -4em;
+                    width: calc(100% + 8em);
+                }
+
+        }
+
+        @media screen and (max-width: 980px) {
+
+            #main2 > .main {
+                padding: 4em 3em 2em 3em ;
+            }
+
+                #main2 > .main > .image.main:first-child {
+                    margin: -4em 0 4em -3em;
+                    width: calc(100% + 6em);
+                }
+
+        }
+
+        @media screen and (max-width: 736px) {
+
+            #main2 > .main {
+                padding: 3em 2em 1em 2em ;
+            }
+
+                #main2 > .main > .image.main:first-child {
+                    margin: -3em 0 2em -2em;
+                    width: calc(100% + 4em);
+                }
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            #main2 > .main {
+                padding: 3em 1.5em 1em 1.5em ;
+            }
+
+                #main2 > .main > .image.main:first-child {
+                    margin: -3em 0 1.5em -1.5em;
+                    width: calc(100% + 3em);
+                }
+
+        }
+
+        @media screen and (max-width: 360px) {
+
+            #main2 {
+                border-radius: 0;
+            }
+
+                #main2 > .main {
+                    padding: 2.5em 1em 0.5em 1em ;
+                }
+
+                    #main2 > .main > .image.main:first-child {
+                        margin: -2.5em 0 1.5em -1em;
+                        width: calc(100% + 2em);
+                        border-radius: 0;
+                    }
+
+                        #main2 > .main > .image.main:first-child img {
+                            border-radius: 0;
+                        }
+
+        }
+
+
+
 /* Footer */
 
 	#footer {
